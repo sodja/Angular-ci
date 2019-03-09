@@ -20,9 +20,11 @@ install:
   - npm install
 
 script:
+  - export CHROME_BIN=chromium-browser
   - npm run test:cover -- --no-watch --no-progress --browsers=ChromeHeadlessCI
   - npm run test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
   - npm run lint
+  - npm run build --prod
 
 after_success:
   - npm run coveralls
