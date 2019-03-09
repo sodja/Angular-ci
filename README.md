@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/sodja/Angular-ci/badge.svg?branch=master)](https://coveralls.io/github/sodja/Angular-ci?branch=master)
+
 # AngularCI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2.
