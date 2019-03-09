@@ -22,5 +22,4 @@ install:
 script:
   - npm run test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
   - npm run lint
-  - npm run e2e
   - ng build --prod
