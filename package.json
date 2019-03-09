@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "test:cover": "rm -rf ./coverage && ng test --code-coverage",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/bin/coveralls.js"
   },
   "private": true,
   "dependencies": {
