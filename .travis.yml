@@ -23,7 +23,7 @@ script:
   - npm run test:cover -- --no-watch --no-progress --browsers=ChromeHeadlessCI
   - npm run test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
   - npm run lint
-  - ng e2e -- --no-progress --protractor-config=protractor-ci.conf.js
+  - npm run e2e -- --no-progress --protractor-config=protractor-ci.conf.js
 
 after_success:
   - npm run coveralls
